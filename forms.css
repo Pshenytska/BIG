@@ -1,0 +1,88 @@
+/* end global page styles */
+
+/* start reCAPTCHA styles */
+
+/* writes to small text above reCAPTCHA upon failure */
+.dateFeedback {
+  font-style: italic;
+  font-size: 70%;
+  font-weight: bold;
+  color: #f00;
+}
+input:required {
+  border: 1px solid red;
+}
+mark {
+  background-color: #e6ff06;
+}
+input:optional,
+textarea:optional {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+fieldset {
+  border: 5px solid #ccc;
+  max-width: 350px;
+}
+.circle-sketch-highlight {
+  position: relative;
+}
+.circle-sketch-highlight:before {
+  content: "";
+  z-index: -1;
+  left: -0.5em;
+  top: -0.1em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  position: absolute;
+  border-right-color: transparent;
+  width: 100%;
+  height: 1em;
+  transform: rotate(2deg);
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 0.1em 0.25em;
+}
+.circle-sketch-highlight:after {
+  content: "";
+  z-index: -1;
+  left: -0.5em;
+  top: 0.1em;
+  padding: 0.1em 0.25em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 1em;
+  transform: rotate(-1deg);
+  opacity: 0.7;
+  border-radius: 50%;
+}
+/* legend {
+  margin-left: 2em;
+  padding: 2em 2em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+} */
+/* end reCAPTCHA styles */

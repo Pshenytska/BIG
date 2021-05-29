@@ -1,0 +1,52 @@
+table {
+  border: 3px solid rgb(255, 254, 254);
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-spacing: 2px;
+}
+mark {
+  background-color: #e6ff06;
+}
+tr {
+  vertical-align: top;
+}
+
+td,
+th {
+  border: 1px solid rgb(92, 91, 91);
+  padding: 20px;
+}
+th {
+  font-family: "Montserrat", sans-serif;
+}
+td {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+}
+table.client {
+  margin: 40px auto; /* T R B L */
+}
+
+table.client th {
+  text-align: left;
+  width: 30%;
+}
+
+table.audience th {
+  margin: 40px auto; /* T R B L */
+}
+
+table.audience th {
+  width: 33.3%;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
